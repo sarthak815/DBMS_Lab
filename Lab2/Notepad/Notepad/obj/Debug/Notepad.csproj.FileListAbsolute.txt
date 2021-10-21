@@ -1,0 +1,8 @@
+D:\190911216\Lab2\Notepad\Notepad\bin\Debug\Notepad.exe.config
+D:\190911216\Lab2\Notepad\Notepad\bin\Debug\Notepad.exe
+D:\190911216\Lab2\Notepad\Notepad\bin\Debug\Notepad.pdb
+D:\190911216\Lab2\Notepad\Notepad\obj\Debug\Notepad.Form1.resources
+D:\190911216\Lab2\Notepad\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\190911216\Lab2\Notepad\Notepad\obj\Debug\Notepad.csproj.GenerateResource.Cache
+D:\190911216\Lab2\Notepad\Notepad\obj\Debug\Notepad.exe
+D:\190911216\Lab2\Notepad\Notepad\obj\Debug\Notepad.pdb
