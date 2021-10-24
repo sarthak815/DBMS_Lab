@@ -26,7 +26,7 @@ namespace WindowsFormsApplication3
 
         private void button15_Click(object sender, EventArgs e)
         {
-            textBox1.ResetText();
+            textBox1.Clear();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -118,8 +118,9 @@ namespace WindowsFormsApplication3
         {
             double a = Convert.ToDouble(s1);
             double b = Convert.ToDouble(textBox1.Text);
-            textBox1.Clear(); 
+            textBox1.Clear();
             double res = 0;
+            Boolean bl= false;
             switch (op) { 
                 case "+":
                     res = a + b;
@@ -128,7 +129,12 @@ namespace WindowsFormsApplication3
                     res = a - b;
                     break;
                 case "/":
-                    res = a / b;
+                    if (b == 0)
+                    {
+                        bl = true;
+                    }
+                    else
+                        res = a / b;
                     break;
                 case "*":
                     res = a * b;
@@ -139,7 +145,10 @@ namespace WindowsFormsApplication3
                 default:
                     break;
             }
+            
             string ans = Convert.ToString(res);
+            if (bl)
+                ans = "Cannot divide by zero";
             textBox1.AppendText(ans);
         }
 

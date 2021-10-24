@@ -118,5 +118,10 @@ namespace Data_Collection
         {
             MessageBox.Show("Name: " + textBox1.Text + "\nReg No: " + textBox2.Text + "\nBranch: " + comboBox1.SelectedItem + "Courses Selected: " + msg);
         }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            toolStripStatusLabel1.Text = "Entering dob";
+        }
     }
 }
