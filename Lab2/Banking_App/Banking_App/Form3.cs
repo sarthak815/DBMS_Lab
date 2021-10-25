@@ -17,36 +17,12 @@ namespace Banking_App
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form3_Load(object sender, EventArgs e)
         {
             label3.Text = Form1.username;
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
+     
         private void button2_Click(object sender, EventArgs e)
         {
             Form4 frm4 = new Form4();

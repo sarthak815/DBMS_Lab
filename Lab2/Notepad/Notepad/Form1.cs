@@ -82,6 +82,19 @@ namespace Notepad
             this.Close();
         }
 
+        private void colorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog colorDlg = new ColorDialog();
        
+            if (colorDlg.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.ForeColor = colorDlg.Color;
+            }
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

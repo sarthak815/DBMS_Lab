@@ -68,7 +68,7 @@
             this.label3.Size = new System.Drawing.Size(105, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "Username";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+//            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox1
             // 
@@ -76,7 +76,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(172, 20);
             this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+//            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label4
             // 
@@ -105,7 +105,7 @@
             this.label5.Size = new System.Drawing.Size(253, 25);
             this.label5.TabIndex = 6;
             this.label5.Text = "Forgot your password?";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+//            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button1
             // 
